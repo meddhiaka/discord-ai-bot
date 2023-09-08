@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",           // Use ESNext or an appropriate target
+    "module": "ESNext",           // Use ESNext module system (ESM)
+    "outDir": "./dist",           // Output directory for compiled code
+    "rootDir": "./src",           // Source directory
+    "strict": true,               // Enable strict type checking
+    "esModuleInterop": true,      // Enable interoperability with CommonJS
+    "resolveJsonModule": true,    // Enable JSON module imports
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"],     // Specify your source files
+  "exclude": ["node_modules"]     // Exclude the node_modules directory
+}
